@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neet Ninja Pro</title>
+    <style>
+        section{
+            padding: 0;
+        }
+     </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <h1>Neet Ninja Pro</h1>
+
+    <!-- headings tags-->
+       <h1>bootstrap 5 tutoriel</h1>
+       <h2>this is an h2</h2>
+       <h3>this is an h3 </h3>
+       <h2 class="h3">this is an h2 tag with the h3 class</h2>
+       
+    <!--display headings -->
+    <h1 class="display-1">display 1 heading</h1>
+    <h1 class="display-4">display 2 heading</h1>
+    <h1 class="display-6">display 6 heading</h1>
+    <p class="display-1">p tag display-1 class</p>
+
+    <!-- lead text & alignement-->
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     <p class="lead text-center">hello ninjas</p>
+     <p class="lead text-end">hello ninjas</p>
+     <p class="lead">hello ninjas</p>
+
+    <!-- text decoration & font weight-->
+    <p class="text-decoraton-underline">this is underline text</p>
+    <p class="text-decoration-line-through">this is underline text</p>
+    <p class="fw-bold">this is underline text</p>
+    <small>this is small text</small>
+
+    <!-- text color-->
+    <p class="text-primary"> theme primary colour</p>
+    <p class="text-secondary"> theme secondaire colour</p>
+    <p class="text-info"> theme info colour</p>
+    <p class="text-warning">theme warning colour</p>
+    <p class="text-danger"> theme danger colour</p>
+    <p class="text-muted"> theme danger colour</p>
+
+    <!-- bg color-->
+    <p class="text-wite bg-primary">white text on pramary bg</p>
+    <p class="text-witte bg-secondary">white text on secondary bg</p>
+    <p class="text-light bg-danger">white text on danger bg</p>
+
+
+    <hr>
+      <!-- basic buttons-->
+      <h2>Buttons</h2>
+      <button class="btn btn-primary">primary button</button>
+      <button class="btn btn-secondary">secondaire button</button>
+
+        <!-- anthor tags as buttons-->
+        <h2>Links as buttons</h2>
+        <a href="#" class="btn btn-primary">primary button</a>
+        <a href="#" class="btn btn-secondary">secondaire button</a>
+
+        <!-- button sizes-->
+        <h2>Button sizes</h2>
+        <button class="btn btn-lg btn-primary">primary button</button>
+            <button class="btn btn-sm btn-warning">large danger button</button>
+            
+        <!-- outlined styles-->
+        <button class="btn btn-outline-primary">outline primary button</button>
+        <button class="btn btn-outline-secondary btn-lg">large outlined secondary button</button>
+
+            <!-- button groups-->
+            <h2>Button styles</h2>
+            <div class="btn-group">
+            <a href="#" class="btn btn-primary">button 1</a>
+            <a href="#" class="btn btn-warning">button 2</a>
+            <a href="#" class="btn btn-success">button 3 </a>
+            </div>
+            <hr>
+
+
+            <!-- margin and padding-->
+            <div class="bg-primary m-1 p-1">small margin and padding</div>
+            <div class="bg-primary m-5 p-5">large margin and padding</div>
+            <div class="bg-primary my-3 px-5">margin in y direction,padding in x direction</div>
+            <div class="bg-primary mt-3 mb-4 ms-5 me-1 ps-5 pt-4 pe-2 pb-1">m & p for each direction</div>
+            
+            <!-- borders-->
+            <div class="m-3 p-3 border">default border</div>
+            <div class="m-3 p-3 border-top border-end">individuel border</div>
+            <div class="m-3 p-3 border-start border-success">boder success colour at start</div>
+            <div class="m-3 p-3 border-start border-danger border-5 ">thicke border</div>
+            <div class="m-3 p-3 rounded border border-5">rounted corners</div>
+            <div class="m-3 p-3 rounded-pill border border-5">rounted pill corners</div>
+            <!-- box shadow-->
+             <div class="m-3 p-3 shadow-sm">elelement small box shadow</div>
+             <div class="m-3 p-3 shadow">elelement with large box shadow</div>
+
+            <!-- font weight--> 
+            <p class="fw-bold">bold text </p>
+             <p class="fw-bolder">bolder text </p>
+             <p>normal text</p>
+             <p class="fw-light">light text </p>
+             <p class="fst-italic">ialic text </p>
+             <p class="fst-italic fw-light">italic light text </p>
+             <hr>
+
+
+             <div class="container my-5">
+                <h2>normal container</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, quod facere natus veniam vel magnam maiores? Rerum minus, repudiandae itaque commodi, sint temporibus saepe est aspernatur iure perferendis voluptatum aut!</p>            
+             </div>
+             <div class="container-fluid">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae sint quod voluptatum? Sint corrupti rem magnam, vero debitis quidem id, ex ipsum reprehenderit culpa enim, quasi maxime velit laboriosam at.
+
+            </div>
+
+            <div class="container-lg my-5">
+               <h2>100% width untill ld screens,then container</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure velit fugit vitae, nulla fuga labore asperiores nesciunt odio. Culpa cupiditate placeat dolores assumenda obcaecati ratione veniam nobis non in odit.</p>
+            </div>
+
+            100% width untill ld screens,then container
+                <h2>100% width untill xl screens,then container</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab consequuntur, dolor quidem quis aut aperiam voluptatem, optio qui rem illo dolorum enim placeat minima adipisci temporibus laborum aliquid explicabo. Veritatis.</p>
+            </div>
+
+
+            <hr>
+             <div class="container-lg my-5">
+                <h2>basic grid</h2>
+                <div class="row">
+                    <div class="col">
+                    <div class="p-5 bg-primary text-light">col 1</div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="p-5 bg-primary text-light">col 1</div>
+                    </div>
+
+                    <div class="col">
+                        <div class="p-5 bg-primary text-light">col 1</div>
+                     </div>
+                     <div class="col">
+                        <div class="p-5 bg-primary text-light">col 1</div>
+                     </div>
+                    
+                </div>
+             </div>
+
+
+             <div class="container-lg my-5">
+                <h2>column width</h2>
+
+                <div class="row">
+                    <div class="col-6">
+                    <div class="p-5 bg-primary text-light">col 1</div>
+                    </div>
+                    
+                    <div class="col-3">
+                        <div class="p-5 bg-primary text-light">col 2</div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="p-5 bg-primary text-light">col 3</div>
+                     </div>
+                     
+                    
+                </div>
+             </div>
+
+
+             <div class="container-lg my-5">
+                <h2>responsive column width</h2>
+                <div class="row ">
+                    <div class="col-sm-4 col-lg-6">
+                    <div class="p-5 bg-primary text-light">col 1</div>
+                    </div>
+                    
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="p-5 bg-primary text-light">col 2</div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="p-5 bg-primary text-light">col 3</div>
+                     </div>
+                 </div>
+
+             </div>
+
+
+             <div class="container-lg my-5">
+                <h2>justifiting colums</h2>
+                <div class="row justify-content-center ">
+                    <div class="col-md-3">
+                    <div class="p-5 bg-primary text-light">col 1</div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="p-5 bg-primary text-light">col 2</div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="p-5 bg-primary text-light">col 3</div>
+                     </div>
+                 </div>
+
+             </div>
+
+             <hr>
+
+             <!-- navbar-->
+             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+
+             <!-- main large & intro text-->
+
+             <section id="intro">
+                <div class="container-lg">
+                    <div class="row justify-content-center align-items-center ">
+                        <div class="co-md-5 text-center text-md-start">
+                            <h1>
+                                <div class="display-2">black-belt</div>
+                                <div class="display-5">your coding</div>
+                                
+                            </h1>
+                            <p class="lead my-4 text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#pricing" class="btn btn-secondary btn-lg">buy now</a>
+                        </div>
+                         <div class="col-md-5 text-center d-none d d-md-block">
+                            <img class="img-fluid" src="asset/a1.jpg" alt="">
+                         </div>
+                    </div>
+                </div>
+
+             </section>
+
+             <!-- pricing plans-->
+             <section id="pricing" class="bg-light mt-5">
+                <div class="container-lg">
+                    <div class="text-center">
+                    <h2>pricing plan</h2>
+                    <p class="lead text-muted">choose a pricing plan to suit you</p>
+                    </div>
+
+                    <div class="row my-5 aligin-items-center justify-content-center">
+                        <div class="col-8 col-lg col-xl-3">
+                            <div class="card border-0 ">
+                              <div class="card-body text-center py-4">
+                                <h4 class="card-title">starter Edition</h4>
+                                <p class="lead card-subtitle">eBook download only</p>
+                                <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-outline-primary btn-lg mt-3">buy now</a>
+                                
+                              </div>  
+                            </div>
+                        </div>
+                        <div class="col-9 col-lg-4">
+                            <div class="card border--2 ">
+                              <div class="card-header text-center text-primary">Most popular</div>
+                              <div class="card-body text-center py-5">
+                                <h4 class="card-title">complete Edition</h4>
+                                <p class="lead card-subtitle">eBook download & all updates</p>
+                                <p class="display-5 my-4 text-primary fw-bold">$18.99</p>
+                                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-outline-primary btn-lg mt-3">buy now</a>
+                                
+                            </div>
+                            
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="col-8 col-lg col-xl-3">
+                            <div class="card border-0 ">
+                              <div class="card-body text-center py-4">
+                                <h4 class="card-title">uliminate Edition</h4>
+                                <p class="lead card-subtitle">eBook download only</p>
+                                <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-outline-primary btn-lg mt-3">buy now</a>
+                                
+                              </div>  
+                            </div>  
+
+                    </div>                 
+                    
+                </div>               
+
+             </section>
+
+
+             <!--contact form -->
+             <!--form-control,form-label,form-select,input-group,input-group-text-->
+
+             <section id="contact">
+                <div class="container-lg">
+                    <div class="text-center">
+                        <h2>get in touch</h2>
+                        <p class="lead">Question to ask? fill out the form to contact me directely</p>
+                    </div>
+
+                    <div class="row justify-content-center my-5"  >
+                        <div class="col-lg-6">
+                            <form action="">
+                                <label form="email" class="form-label">Email  adress:</label>
+                                
+                                <input type="email"class="form-control" id="email" placeholder="pa.shek@gmail.com">
+
+                                <label form="name" class="form-label">Name:</label>
+                                
+                                <input type="text"class="form-control" id="name" placeholder="pishek">
+                                 
+                                <label form="subject" class="form-label">what is the question about?:</label>
+                                <select type="email"class="form-select" id="subject" >
+                                <option value="pricing"selected>pricing query</option>
+                                <option value="content">content query</option>
+                                <option value="other">other query</option>
+                                </select>
+
+                               
+                                <div class="form-floating mb-4 mt-5">
+                                    <textarea  id="qurey" class="form-control" style="height: 140 px;" ></textarea>
+                                    <label form="Query" class="form-label">your query....</label>
+                                </div>
+                               <div class="mb-4 text-center">
+                                <button type="submit" class="btn btn-secondary">Submit</button>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+             </section>
+
+
+             <!--offcanvas -->
+             
+             <div class="offcanvas-start" tabinex="-1" id="sidebar"aria-labelledby="sidebar-label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="sidebar-label">my other book</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"aria-label="close"></button>
+
+                </div>
+
+                <div class="offcanvas-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus ea quasi nemo nam fuga doloremque, fugit deserunt corrupti, reiciendis velit omnis quisquam sequi eius eaque amet itaque facere quibusdam?</p>
+                </div>
+
+             </div>
+
+            <!--dropdown-->
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>                </ul>
+            </div>
+
+            
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
